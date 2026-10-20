@@ -50,6 +50,20 @@ Its features include:
 [hid-keyboard]: doc/keyboard.md#physical-keyboard-simulation
 [hid-mouse]: doc/mouse.md#physical-mouse-simulation
 
+## About This Standalone Edition
+
+- **Main repository:** [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
+- **Based on version:** upstream release `v5.0.1` (snapshot commit `a60891aea193d92e7e5c3942700eca63f9d19a5f`, snapshotted 2026-10-20; upstream HEAD dated 2026-10-08)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - .github/dependabot.yml — weekly GitHub Actions and Gradle (Android server build) dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the documentation under doc/ and the README (upstream release workflow kept as-is)
+  - .editorconfig — standard editor settings, with 4-space indent for C and Java sources matching the codebase
+- **Credit & licence:** All original work belongs to Genymobile and the scrcpy contributors. Licence is preserved unchanged — see `LICENSE` (Apache License 2.0). This edition adds the enhancements listed above only. Note the upstream warning above still applies: releases of the original project should only be downloaded from the main repository.
+
 ## Prerequisites
 
 The Android device requires at least API 21 (Android 5.0).
