@@ -1,0 +1,5 @@
+ignores:
+  - "*/**/*.md"
+  - ".github/**/*.md"
+  - "FAQ.md"
+  - "README.md"
