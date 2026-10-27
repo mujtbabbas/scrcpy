@@ -17,7 +17,7 @@ jobs:
       GRADLE: gradle  # use native gradle instead of ./gradlew in scripts
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Setup JDK
         uses: actions/setup-java@v5
@@ -34,7 +34,7 @@ jobs:
       GRADLE: gradle  # use native gradle instead of ./gradlew in scripts
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Setup JDK
         uses: actions/setup-java@v5
@@ -55,7 +55,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Setup JDK
         uses: actions/setup-java@v5
@@ -70,7 +70,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
         # Same as build-linux-x86_64
       - name: Install dependencies
@@ -110,7 +110,7 @@ jobs:
             fi
 
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
         # https://wiki.libsdl.org/SDL3/README-linux#build-dependencies
       - name: Install dependencies
@@ -147,7 +147,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install dependencies
         run: |
@@ -176,7 +176,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install dependencies
         run: |
@@ -208,7 +208,7 @@ jobs:
         shell: 'msys2 {0}'
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Setup MSYS2
         uses: msys2/setup-msys2@v2
@@ -288,7 +288,7 @@ jobs:
             fi
 
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install dependencies
         run: |
@@ -331,7 +331,7 @@ jobs:
             fi
 
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install dependencies
         run: brew install meson nasm libiconv zlib automake
@@ -368,7 +368,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Download scrcpy-server
         uses: actions/download-artifact@v8
@@ -404,7 +404,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Download scrcpy-server
         uses: actions/download-artifact@v8
@@ -440,7 +440,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Download scrcpy-server
         uses: actions/download-artifact@v8
@@ -476,7 +476,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Download scrcpy-server
         uses: actions/download-artifact@v8
@@ -512,7 +512,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Download scrcpy-server
         uses: actions/download-artifact@v8
@@ -548,7 +548,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Download scrcpy-server
         uses: actions/download-artifact@v8
@@ -589,7 +589,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Download scrcpy-server
         uses: actions/download-artifact@v8
